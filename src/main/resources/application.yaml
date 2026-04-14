@@ -1,0 +1,29 @@
+server:
+  port: 8080
+spring:
+  config:
+    import: "optional:classpath:ypc.yaml"
+  application:
+    name: ProductCrawler
+  datasource:
+    url: jdbc:mysql://localhost:3306/product_crawler?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&useSSL=false&allowPublicKeyRetrieval=true
+    username: root
+    password: root12345
+    driver-class-name: com.mysql.cj.jdbc.Driver
+langchain4j:
+  open-ai.chat-model:
+    base-url: https://api.deepseek.com/v1
+    api-key: sk-fee2dbececd248f3814f09c0c914c714
+    model-name: deepseek-chat
+    log-requests: true
+    log-responses: true
+mybatis:
+  type-handlers-package: com.mogoo.productcrawler.handler
+  configuration:
+    map-underscore-to-camel-case: true
+logging:
+  level:
+    # 替换成你 mapper 接口所在的包路径
+    com.mogoo.productcrawler.dao: debug
+    # 打印 SQL 详细执行过程
+    org.mybatis: debug

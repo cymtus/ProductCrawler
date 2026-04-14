@@ -1,0 +1,20 @@
+ypc:
+  cookie:
+  User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) Chrome/122.0.0.0
+  Accept: application/json
+  categories:
+    A627879: "新鲜蔬菜"
+    A659113: "新鲜水果"
+    A627880: "肉禽蛋品"
+    A627882: "水产海鲜"
+    A1098885: "豆制品类"
+    A1408947: "老相食豆制品"
+    A627883: "早餐牛奶"
+    A626462: "米面干货"
+    A627878: "调料油品"
+    A627881: "冷冻食品"
+    A1526852: "饮料酒水"
+    A627884: "耗材系列"
+  username: pudge
+  password: zzz2b2b123
+
