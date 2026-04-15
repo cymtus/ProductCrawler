@@ -1,0 +1,2 @@
+ALTER TABLE ypc_sku_info ADD COLUMN is_processed TINYINT(1) NOT NULL DEFAULT 1 COMMENT '0:待处理, 1:已处理';
+ALTER TABLE ypc_sku_info ADD COLUMN change_type VARCHAR(32) DEFAULT NULL COMMENT '变更类型';
