@@ -1,0 +1,22 @@
+"# Continue 插件忽略规则（不索引进 DeepSeek/LLM 上下文）
+target/
+.git/
+.mvn/
+*.log
+*.class
+*.jar
+*.war
+*.zip
+*.lock
+node_modules/
+dist/
+build/
+__pycache__/
+.vscode/
+*.token
+*.min.js
+*.min.css
+*.map
+.DS_Store
+Thumbs.db
+"
